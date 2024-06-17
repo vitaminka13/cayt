@@ -1,0 +1,15 @@
+.mydiv {
+	background-color: red;
+	padding: 1px;
+}
+.toph {
+	color: blue;
+	font-size: 80px; 
+}
+.superlist {
+	list-style: none;
+	display: flex;
+}
+.picture {
+	width: 400px;
+}
