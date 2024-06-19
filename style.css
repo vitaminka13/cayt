@@ -1,0 +1,256 @@
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: rgb(44, 44, 44);
+} 
+
+.header__logo{
+    width: 60px;
+}
+
+.container_header{
+    display: flex;
+    padding: 27px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list{
+    display: flex; 
+    list-style: none;   
+}
+.burger{
+    height: 50px;
+    width: 80px;
+    background-color: transparent;
+    border: none;
+    display: none;
+}
+.burger_line{
+    width: 100%;
+    height: 10px;
+    background-color: aquamarine;
+    margin-bottom: 10px;
+}
+.nav__item{
+    margin-right: 63px;
+    color: aquamarine;
+}
+
+.heroblock__title {
+    color: rgb(245, 245, 245);
+font-family: Holy Union;
+font-size: 72px;
+font-weight: 400;
+line-height: 86px;
+letter-spacing: 0%;
+text-align: left;
+padding: 5px 0px 0px 0px;
+padding-top: 50px;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.heroblock {
+    background-color: rgb(44, 44, 44);
+}
+.container__heroblock{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 66px 0;
+}
+.heroblock__text {
+    color: aquamarine;
+    font-size: 35px;
+}
+.heroblock__button {
+    border-radius: 6px;
+padding: 13px 31px;
+box-shadow: 0px 2px 13px 0px rgba(226, 158, 0, 0.48);
+/* orange */
+background: linear-gradient(135.00deg, rgb(226, 163, 0),rgb(226, 149, 0) 100%);
+    
+}
+.heroblock__img {
+    size: 10000px;
+}
+.rate__full{
+    width: 400px;
+    height: 10px;
+    background-color: aquamarine;
+    
+}
+.rate__done{
+    width: 40%;
+    height: 100%;
+    background-color: blue;
+    
+}
+.rate__full2{
+    width: 400px;
+    height: 10px;
+    background-color: aquamarine;
+   
+}
+.rate__done2{
+    width: 60%;
+    height: 100%;
+    background-color: blue;
+    
+}
+.rate__full3{
+    width: 400px;
+    height: 10px;
+    background-color: aquamarine;
+    
+}
+.rate__done3{
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+   
+}
+.about__content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about__img{
+    width: 60%;
+}
+.about__title{
+    text-align: center;
+    color: aquamarine;
+}
+.about__list{
+    list-style: none;
+    
+}
+.about{
+    background-color: rgb(44, 44, 44);
+    padding-top: 20px;
+}
+.about__item{
+    color: aquamarine;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.video{
+    background-color: rgb(44, 44, 44) ;
+    padding-top: 20px;
+}
+.video__title{
+    color: aquamarine;
+    text-align: center;
+    font-family: Holy Union;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0%;
+
+}
+.video__video{
+    width: 100%;
+    height: 668px;
+    border: 50px solid gray;
+    border-radius: 29px;
+    box-sizing: border-box;
+}
+.container__video{
+    padding: 70px 0 98px;
+
+}
+.gallery__img{
+    width: 100%;
+}
+.gallery__item{
+    width: 30%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.gallery__list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-bottom: 0;
+}
+.gallery{
+    background: rgb(62, 62, 62);
+    padding-top: 20px;
+}
+.gallery__title{
+    color: aquamarine;
+    text-align: center;
+    
+}
+.footer__list{
+    list-style: none;
+    display: flex;
+}
+.container__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.footer{
+    background-color: rgb(44, 44, 44);
+}
+.footer__item{
+    margin-right: 20px;
+}
+.footer__title{
+    color: aquamarine;
+}
+.footer__text{
+    color: aquamarine;
+}
+@media (max-width: 834px){
+    .container{
+        max-width: 580px;
+    }
+    .nav{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .container__heroblock{
+        flex-direction: column;
+        align-items: center;
+    }
+    .heroblock__text{
+        text-align: center;
+    }
+    .heroblock__title{
+        text-align: center;
+    }
+    .heroblock__content{
+        display: flex;
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about__content{
+        flex-direction: column;
+    }
+    .about__list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .video__video{
+        height: 270px;
+        border: 30px solid gray;
+    }
+    .gallery__item{
+        width: 40%;
+    }
+}
